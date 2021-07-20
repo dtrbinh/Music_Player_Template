@@ -1,9 +1,4 @@
-/*
-design by Voicu Apostol.
-design: https://dribbble.com/shots/3533847-Mini-Music-Player
-I can't find any open music api or mp3 api so i have to download all musics as mp3 file.
-You can fork on github: https://github.com/muhammederdem/mini-player
-*/
+
 
 new Vue({
     el: "#app",
@@ -17,75 +12,75 @@ new Vue({
         isTimerPlaying: false,
         tracks: [
           {
-            name: "Mekanın Sahibi",
-            artist: "Norm Ender",
-            cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
-            source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/1.mp3",
-            url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
+            name: "Người Chơi Hệ Đẹp",
+            artist: "16 Typh - CUKAK Remix",
+            cover: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/img%20cover/1.jpg?raw=true",
+            source: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/mp3/1.mp3?raw=true",
+            url: "https://www.youtube.com/watch?v=1VnsC7SgkBI&ab_channel=CUKAK",
             favorited: false
           },
           {
-            name: "Everybody Knows",
-            artist: "Leonard Cohen",
-            cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/2.jpg",
-            source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/2.mp3",
-            url: "https://www.youtube.com/watch?v=Lin-a2lTelg",
+            name: "SANG XỊN MỊN",
+            artist: "Gill ft. Kewtiie",
+            cover: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/img%20cover/2.jpg?raw=true",
+            source: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/mp3/2.mp3?raw=true",
+            url: "https://www.youtube.com/watch?v=COqdb1EjD00&ab_channel=CUKAK",
             favorited: true
           },
           {
-            name: "Extreme Ways",
-            artist: "Moby",
-            cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/3.jpg",
-            source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/3.mp3",
-            url: "https://www.youtube.com/watch?v=ICjyAe9S54c",
+            name: "Hết Nhạc Con Về",
+            artist: "DUYB & NOT AFRAID - feat. RZ Mas",
+            cover: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/img%20cover/3.jpg?raw=true",
+            source: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/mp3/3.mp3?raw=true",
+            url: "https://www.youtube.com/watch?v=zubxCn9MekQ&ab_channel=DuyB",
             favorited: false
           },
           {
-            name: "Butterflies",
-            artist: "Sia",
-            cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/4.jpg",
-            source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/4.mp3",
-            url: "https://www.youtube.com/watch?v=kYgGwWYOd9Y",
+            name: "Short Skirt",
+            artist: "Niz",
+            cover: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/img%20cover/4.jpg?raw=true",
+            source: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/mp3/4.mp3?raw=true",
+            url: "https://www.youtube.com/watch?v=M59VEx31D20&ab_channel=NIZOfficial",
             favorited: false
           },
           {
-            name: "The Final Victory",
-            artist: "Haggard",
-            cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/5.jpg",
-            source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/5.mp3",
-            url: "https://www.youtube.com/watch?v=0WlpALnQdN8",
+            name: "Xích Thêm Chút",
+            artist: "RPT Groovie ft. Tlinh & RPT MCK",
+            cover: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/img%20cover/5.jpg?raw=true",
+            source: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/mp3/5.mp3?raw=true",
+            url: "https://www.youtube.com/watch?v=Y3H7N_8ehG4&ab_channel=CUKAK",
             favorited: true
           },
           {
-            name: "Genius ft. Sia, Diplo, Labrinth",
-            artist: "LSD",
-            cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/6.jpg",
-            source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/6.mp3",
-            url: "https://www.youtube.com/watch?v=HhoATZ1Imtw",
+            name: "Phố Đã Lên Đèn",
+            artist: "Huyền Tâm Môn 「Cukak Remix」",
+            cover: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/img%20cover/6.jpg?raw=true",
+            source: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/mp3/6.mp3?raw=true",
+            url: "https://www.youtube.com/watch?v=39t71cy-yXI&ab_channel=CUKAK",
             favorited: false
           },
           {
-            name: "The Comeback Kid",
-            artist: "Lindi Ortega",
-            cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/7.jpg",
-            source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/7.mp3",
-            url: "https://www.youtube.com/watch?v=me6aoX0wCV8",
+            name: "Thích Em Hơi Nhiều",
+            artist: "Wren Evans 「Cukak Remix」",
+            cover: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/img%20cover/7.jpg?raw=true",
+            source: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/mp3/7.mp3?raw=true",
+            url: "https://www.youtube.com/watch?v=muSn7PSazhE&ab_channel=CUKAK",
             favorited: true
           },
           {
-            name: "Overdose",
-            artist: "Grandson",
-            cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/8.jpg",
-            source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/8.mp3",
-            url: "https://www.youtube.com/watch?v=00-Rl3Jlx-o",
+            name: "Gu",
+            artist: "Freaky ft. Seachains「Cukak Remix」",
+            cover: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/img%20cover/8.jpg?raw=true",
+            source: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/mp3/8.mp3?raw=true",
+            url: "https://www.youtube.com/watch?v=VI47bTJaMe4&ab_channel=CUKAK",
             favorited: false
           },
           {
-            name: "Rag'n'Bone Man",
-            artist: "Human",
-            cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
-            source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
-            url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+            name: "Anh Có Muốn Đưa Em Về Không?",
+            artist: "Ngô Lan Hương",
+            cover: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/img%20cover/9.jpg?raw=true",
+            source: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/mp3/9.mp3?raw=true",
+            url: "https://www.youtube.com/watch?v=hc8OqQCvQeQ&ab_channel=OrinnRemix",
             favorited: false
           }
         ],
