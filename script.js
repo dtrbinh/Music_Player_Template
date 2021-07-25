@@ -12,20 +12,20 @@ new Vue({
         isTimerPlaying: false,
         tracks: [
           {
-            name: "Người Chơi Hệ Đẹp",
-            artist: "16 Typh - CUKAK Remix",
-            cover: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/img%20cover/1.jpg?raw=true",
-            source: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/mp3/1.mp3?raw=true",
-            url: "https://www.youtube.com/watch?v=1VnsC7SgkBI&ab_channel=CUKAK",
-            favorited: false
-          },
-          {
             name: "SANG XỊN MỊN",
             artist: "Gill ft. Kewtiie",
             cover: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/img%20cover/2.jpg?raw=true",
             source: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/mp3/2.mp3?raw=true",
             url: "https://www.youtube.com/watch?v=COqdb1EjD00&ab_channel=CUKAK",
             favorited: true
+          },
+          {
+            name: "Người Chơi Hệ Đẹp",
+            artist: "16 Typh - CUKAK Remix",
+            cover: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/img%20cover/1.jpg?raw=true",
+            source: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/mp3/1.mp3?raw=true",
+            url: "https://www.youtube.com/watch?v=1VnsC7SgkBI&ab_channel=CUKAK",
+            favorited: false
           },
           {
             name: "Hết Nhạc Con Về",
