@@ -44,11 +44,11 @@ new Vue({
             favorited: false
           },
           {
-            name: "Xích Thêm Chút",
-            artist: "RPT Groovie ft. Tlinh & RPT MCK",
+            name: "Giấc mơ trưa REMIX",
+            artist: "Tii Music",
             cover: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/img%20cover/5.jpg?raw=true",
             source: "https://github.com/dtrbinh/Music_Player_Template/blob/main/music/mp3/5.mp3?raw=true",
-            url: "https://www.youtube.com/watch?v=Y3H7N_8ehG4&ab_channel=CUKAK",
+            url: "https://www.youtube.com/watch?v=pYRs2JW8y_o&ab_channel=TiiMusic",
             favorited: true
           },
           {
